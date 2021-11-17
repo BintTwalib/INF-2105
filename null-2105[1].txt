@@ -1,0 +1,82 @@
+                      Java questions.
+ From assigment one 
+1)  public static void main(String[] args) {
+          System.out.println();
+          System.out.println("           ******           *************        **********");
+          System.out.println("           **    **                **            **");
+          System.out.println("           **     **               **            **");
+          System.out.println("           **      **              **            **");
+          System.out.println("           **      **              **            ********");
+          System.out.println("           **      **       **     **            **");
+          System.out.println("           **     **         **    **            **");
+          System.out.println("           **    **           **  **             **");
+          System.out.println("           *****               ****              **********");
+          System.out.println();
+       }  // end main()
+
+    }  // end class
+
+13)
+a)
+
+   public static void main (String[] args)
+    {
+        for (int count =0; count < 10; count++)
+        {
+            for (int j=0; j < count+1; j++)
+            System.out.print("*");
+            System.out.println();
+        }
+    }
+}
+b)        public static void main (String[] args)
+        {
+            for (int count =11; count >= 0; count--)
+            {
+                for (int j=0; j < count-1; j++)
+                System.out.print("*");
+                System.out.println();
+            }
+        }
+
+    }
+c)
+       {
+        for(int count = 0; count < 10; count++)
+        {
+            for(int index=1; index < count+1; index++)
+            System.out.print(" ");
+            for(int star=10; star > count; star--)
+            System.out.print("*");
+            System.out.println();
+        }
+    }
+}
+d)
+    public static void main (String[] args) {
+        for (int count = 10; count > 0; count--) {
+            for (int index = 0; index < count - 1; index++)
+                System.out.print(" ");
+            for (int star = 10; star > count - 1; star--)
+                System.out.print("*");
+            System.out.println();
+        }
+    }
+    }
+3) This from another assigmenst PERSONAL INFORMATION
+public class Main {
+
+    public static void main(String[] args) {
+
+            System.out.println("My Name is AMINA TALIB\nMy address is 110 Fumba Town street beachside, Znz 12\nMy phone numner is 778-533-830\nMy College major is SUZA");
+        }
+    } 
+4) hili ni swali la 16 
+public static void main(String[] args){
+    int x = 97, y= 2;
+    int quotient = x / y;
+    int remainder = x % y;
+        System.out.println("Quotient is: " + quotient);
+        System.out.println("Remainder is: " + remainder);
+}
+}
